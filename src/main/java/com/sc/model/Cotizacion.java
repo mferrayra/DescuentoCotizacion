@@ -1,6 +1,12 @@
 package com.sc.model;
 
-public class Cotizacion {
+import java.io.Serializable;
+
+public class Cotizacion implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String zona;
 	private String modelo;
 	private double cotizacion;
